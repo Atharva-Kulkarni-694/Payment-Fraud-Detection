@@ -8,7 +8,7 @@ import os
 # Add project root to Python path
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
-from ml_model.predict import fraud_predictor
+from ..ml_models.predict import fraud_predictor
 from database.db_connection import db_manager
 from utils.logger import fraud_logger
 
