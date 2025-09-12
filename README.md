@@ -8,6 +8,9 @@ A complete end-to-end fraud detection system built with Python that processes pa
 - **Real-time fraud detection** using XGBoost ML model
 - **RESTful API** for transaction processing
 - **Interactive dashboard** with Streamlit
+
+## Additional Features To Be Added
+
 - **Database integration** (PostgreSQL/File-based)
 - **Comprehensive logging** and monitoring
 - **Scalable architecture** with streaming support
