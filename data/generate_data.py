@@ -22,7 +22,7 @@ def generate_transaction_data(n_samples=10000):
     
     for i in range(n_samples):
         # Normal transaction patterns
-        is_fraud = np.random.random() < 0.05  # 5% fraud rate
+        is_fraud = np.random.random() < 0.34  # 34% fraud rate
         
         if is_fraud:
             # Fraudulent patterns
